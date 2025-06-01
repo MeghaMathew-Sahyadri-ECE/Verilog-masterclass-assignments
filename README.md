@@ -9,18 +9,22 @@ This repository contains Verilog source codes, testbenches, and waveform screens
 ## 📚 Assignments Overview
 
 ### 🔸 Assignment 1: 4:1 Multiplexer
-- 🔹 [Design File](assignment_1_mux/mux4to1.v)
-- 🔹 [Testbench](assignment_1_mux/mux4to1_tb.v)
-- 🖼️ [Waveform Screenshot](assignment_1_mux/mux4to1_waveform.png)
+- 🔹 [Design File](Assignment1_4to1_Mux/mux4to1.v.txt)
+- 🔹 [Testbench](Assignment1_4to1_Mux/mux4to1_tb.v.txt)
+- 🔹[Display](Assignment1_4to1_Mux/mux4to1_monitor.png.png)
+- 🖼️ [Waveform Screenshot](Assignment1_4to1_Mux/mux4to1_waveform.png.png)
 
 ### 🔸 Assignment 2: Full Adder
-- 🔹 [Design File](assignment_2_full_adder/full_adder.v)
-- 🔹 [Testbench](assignment_2_full_adder/full_adder_tb.v)
-- 🖼️ [Waveform Screenshot](assignment_2_full_adder/full_adder_waveform.png)
+- 🔹 [Design File](Assignment_2_Full%Adder/full_adder.v.txt).
+- 🔹 [Testbench](Assignment_2_Full%Adder/full_adder_tb.v.txt).
+- 🔹[Display](Assignment_2_Full%Adder/full_adder_monitor.png.png).
+- 🖼️ [Waveform Screenshot](Assignment_2_Full%Adder/full_adder_waveform.png.png).
+
 
 ### 🔸 Assignment 3: Up-Down Counter with Reset
 - 🔹 [Design File](assignment_3_up_down_counter/up_down_counter.v)
 - 🔹 [Testbench](assignment_3_up_down_counter/up_down_counter_tb.v)
+- 🔹[Display](assignment_3_up_down_counter/up_down_counter_monitor.png)
 - 🖼️ [Waveform Screenshot](assignment_3_up_down_counter/up_down_counter_waveform.png)
 
 ---
