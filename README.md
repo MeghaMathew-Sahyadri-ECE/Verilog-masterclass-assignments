@@ -15,10 +15,10 @@ This repository contains Verilog source codes, testbenches, and waveform screens
 - 🖼️ [Waveform Screenshot](Assignment1_4to1_Mux/mux4to1_waveform.png.png)
 
 ### 🔸 Assignment 2: Full Adder
-- 🔹 [Design File](Assignment_2_Full%Adder/full_adder.v.txt).
-- 🔹 [Testbench](Assignment_2_Full%Adder/full_adder_tb.v.txt).
-- 🔹[Display](Assignment_2_Full%Adder/full_adder_monitor.png.png).
-- 🖼️ [Waveform Screenshot](Assignment_2_Full%Adder/full_adder_waveform.png.png).
+- 🔹 [Design File](Assignment_2_Full_Adder/full_adder.v.txt).
+- 🔹 [Testbench](Assignment_2_Full_Adder/full_adder_tb.v.txt).
+- 🔹[Display](Assignment_2_Full_Adder/full_adder_monitor.png.png).
+- 🖼️ [Waveform Screenshot](Assignment_2_Full_Adder/full_adder_waveform.png.png).
 
 
 ### 🔸 Assignment 3: Up-Down Counter with Reset
