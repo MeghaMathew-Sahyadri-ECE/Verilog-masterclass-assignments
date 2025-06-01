@@ -1,0 +1,25 @@
+// Code your testbench here
+// or browse Examples
+module tb_mux4to1;
+  reg [3:0] a;
+  reg [1:0] select;
+  wire out;
+
+  mux4to1 uut (.a(a), .select(select), .out(out));
+
+    initial begin
+      $dumpfile("waveform.vcd");     
+      $dumpvars(0, tb_mux4to1);       
+      $display("Select Input   | Out");
+      $monitor("%b  %b |  %b", select, a, out);
+
+        a = 4'b1010;
+
+        select = 2'b00; #10;
+        select = 2'b01; #10;
+        select = 2'b10; #10;
+        select = 2'b11; #10;
+
+        $finish;
+    end
+endmodule
