@@ -22,8 +22,8 @@ This repository contains Verilog source codes, testbenches, and waveform screens
 
 
 ### 🔸 Assignment 3: Up-Down Counter with Reset
-- 🔹 [Design File](assignment_3_up_down_counter/up_down_counter.v)
-- 🔹 [Testbench](assignment_3_up_down_counter/up_down_counter_tb.v)
+- 🔹 [Design File](assignment_3_up_down_counter/up_down_counter.v.txt)
+- 🔹 [Testbench](assignment_3_up_down_counter/up_down_counter_tb.v.txt)
 - 🔹[Display](assignment_3_up_down_counter/up_down_counter_monitor.png)
 - 🖼️ [Waveform Screenshot](assignment_3_up_down_counter/up_down_counter_waveform.png)
 
