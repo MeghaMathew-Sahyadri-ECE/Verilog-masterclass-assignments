@@ -1,0 +1,37 @@
+// Code your testbench here
+// or browse Examples
+module tb_up_down_counter;
+  reg clk;
+  reg reset;
+  reg up_down;
+  wire [3:0] count;
+
+  up_down_counter uut (
+    .clk(clk),
+    .reset(reset),
+    .up_down(up_down),
+    .count(count)
+  );
+
+  
+  initial begin
+    clk = 0;
+    forever #5 clk = ~clk; 
+  end
+
+  initial begin
+    $dumpfile("waveform.vcd");     
+    $dumpvars(0, tb_up_down_counter); 
+    $display("Reset | Up_Down | Count");
+    $monitor("%b    |    %b     | %b", reset, up_down, count);
+
+    // Test sequence
+    reset = 1; up_down = 1; #10;
+    reset = 0;             #50; 
+    up_down = 0;           #50;
+    reset = 1;             #10; 
+    reset = 0; up_down = 1;#30;
+
+    $finish;
+  end
+endmodule
