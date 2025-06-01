@@ -1,0 +1,41 @@
+// Code your testbench here
+// or browse Examples
+module tb_mux2to1_with_dff;
+
+  reg [1:0] a;
+  reg select;
+  reg clk;
+  wire out;
+
+  // Instantiate design
+  mux2to1_with_dff uut (
+    .a(a),
+    .select(select),
+    .clk(clk),
+    .out(out)
+  );
+
+  // Clock generation: toggles every 5 time units
+  always #5 clk = ~clk;
+
+  initial begin
+    $dumpfile("mux2to1_with_dff.vcd");
+    $dumpvars(0, tb_mux2to1_with_dff);
+    $display("tclk\tselect\ta\tout");
+    $monitor("t%b\t%b\t%b\t%b", clk, select, a, out);
+
+    // Initial values
+    clk = 0;
+    a = 2'b00;
+    select = 0;
+
+    #10 a = 2'b01; select = 0;  // a[0] = 1
+    #10 a = 2'b10; select = 1;  // a[1] = 0
+    #10 a = 2'b11; select = 0;  // a[0] = 1
+    #10 a = 2'b01; select = 1;  // a[1] = 1
+    #10;
+
+    $finish;
+  end
+
+endmodule
